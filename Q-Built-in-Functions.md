@@ -25,7 +25,7 @@
 |`idesc`|-|`⍒`|`grade down`|
 |`in`|TBD|`∊`|`membership`|
 |`last`|`-1 #`|`¯1↑`|
-|`ltrim`|`x where (\|) scan " " <> x`|`{(∨\' '≠⍵)/⍵}`|
+|`ltrim`|`x where maxs " " <> x`|`{(∨\' '≠⍵)/⍵}`|
 |`max`|`(\|) over`|`⌈/`|
 |`maxs`|`(\|) scan`|`⌈\`|
 |`min`|`(&) over`|`⌊/`|
