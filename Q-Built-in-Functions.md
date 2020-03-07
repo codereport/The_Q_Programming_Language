@@ -5,11 +5,16 @@
 
 |Keyword|Implementation|APL Equivalent|APL Name|
 |:--:|:--:|:--:|:--:|
+|`asc`|-|`⍵[⍋⍵]`|
 |`avg`|`(sum x) % count x`|`+/÷⍴`|
 |`avgs`|`(sums x) % 1 + til count x`|`{(+\⍵)÷⍳⍴⍵}`|
 |`cut`|-|TBD|
 |`deltas`|`(-) prior`|`{(⊃⍵),-2-/⍵}`|
+|`desc`|-|`⍵[⍒⍵]`|
 |`differ`|`(<>) prior`|`1,2≠/`|
+|`each`|-|`¨`|`each`|
+|`iasc`|-|`⍋`|`grade up`|
+|`idesc`|-|`⍒`|`grade down`|
 |`max`|`(\|) over`|`⌈/`|
 |`maxs`|`(\|) scan`|`⌈\`|
 |`min`|`(&) over`|`⌊/`|
