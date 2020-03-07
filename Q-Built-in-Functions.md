@@ -5,6 +5,8 @@
 
 |Keyword|Implementation|APL Equivalent|APL Name|
 |:--:|:--:|:--:|:--:|
+|`all`|`0 < min`|`∧/`|
+|`any`|`0 < max`|`∨/`|
 |`asc`|-|`⍵[⍋⍵]`|
 |`avg`|`(sum x) % count x`|`+/÷⍴`|
 |`avgs`|`(sums x) % 1 + til count x`|`{(+\⍵)÷⍳⍴⍵}`|
