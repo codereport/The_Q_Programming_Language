@@ -18,6 +18,7 @@
 |`differ`|`(<>) prior`|`1,2≠/`|
 |`each`|-|`¨`|`each`|
 |`first`|`1 #`|`⊃`|`first`|
+|`flip`|-|`⍉`|`transpose`|
 |`floor`|-|`⌊`|`floor`|
 |`iasc`|-|`⍋`|`grade up`|
 |`idesc`|-|`⍒`|`grade down`|
