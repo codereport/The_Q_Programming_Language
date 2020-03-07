@@ -25,6 +25,7 @@
 |`idesc`|-|`⍒`|`grade down`|
 |`in`|TBD|`∊`|`membership`|
 |`last`|`-1 #`|`¯1↑`|
+|`ltrim`|`x where (\|) scan " " <> x`|`{(∨\' '≠⍵)/⍵}`|
 |`max`|`(\|) over`|`⌈/`|
 |`maxs`|`(\|) scan`|`⌈\`|
 |`min`|`(&) over`|`⌊/`|
@@ -35,7 +36,9 @@
 |`raze`|-|`,`|`ravel`|
 |`reverse`|-|`⌽`|`reverse`|
 |`rotate`|`reverse (reverse y # x) , reverse y _ x`|`⌽`|`rotate`|
+|`rtrim`|`reverse ltrim reverse x`|`{⌽(∨\⌽' '≠⍵)/⍵}`|
 |`scan`|-|`\`|`scan`|
 |`sum`|`(+) over`|`+/`|
 |`sums`|`(+) scan`|`+\`|
+|`trim`|`ltrim rtrim x`|`{⌽(∨\⌽' '≠⍵)/⍵} {(∨\' '≠⍵)/⍵}`|
 |`where`|-|`⍸`|`where`|
