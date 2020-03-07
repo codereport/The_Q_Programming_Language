@@ -21,6 +21,7 @@
 |`floor`|-|`⌊`|`floor`|
 |`iasc`|-|`⍋`|`grade up`|
 |`idesc`|-|`⍒`|`grade down`|
+|`in`|TBD|`∊`|`membership`|
 |`last`|`-1 #`|`¯1↑`|
 |`max`|`(\|) over`|`⌈/`|
 |`maxs`|`(\|) scan`|`⌈\`|
