@@ -5,6 +5,7 @@
 
 |Keyword|Implementation|APL Equivalent|APL Name|
 |:--:|:--:|:--:|:--:|
+|`abs`|-|`\|`|`magnitude`|
 |`all`|`0 < min`|`∧/`|
 |`any`|`0 < max`|`∨/`|
 |`asc`|-|`⍵[⍋⍵]`|
