@@ -8,13 +8,17 @@
 |`asc`|-|`⍵[⍋⍵]`|
 |`avg`|`(sum x) % count x`|`+/÷⍴`|
 |`avgs`|`(sums x) % 1 + til count x`|`{(+\⍵)÷⍳⍴⍵}`|
+|`ceiling`|-|`⌈`|`ceiling`|
 |`cut`|-|`{((⍳⍴⍵)∊⍺)⊂⍵}`|
 |`deltas`|`(-) prior`|`{(⊃⍵),-2-/⍵}`|
 |`desc`|-|`⍵[⍒⍵]`|
 |`differ`|`(<>) prior`|`1,2≠/`|
 |`each`|-|`¨`|`each`|
+|`first`|`1 #`|`⊃`|`first`|
+|`floor`|-|`⌊`|`floor`|
 |`iasc`|-|`⍋`|`grade up`|
 |`idesc`|-|`⍒`|`grade down`|
+|`last`|`-1 #`|`¯1↑`|
 |`max`|`(\|) over`|`⌈/`|
 |`maxs`|`(\|) scan`|`⌈\`|
 |`min`|`(&) over`|`⌊/`|
