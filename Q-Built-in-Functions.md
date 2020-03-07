@@ -36,7 +36,7 @@
 |`raze`|-|`,`|`ravel`|
 |`reverse`|-|`⌽`|`reverse`|
 |`rotate`|`reverse (reverse y # x) , reverse y _ x`|`⌽`|`rotate`|
-|`rtrim`|`reverse ltrim reverse x`|`{⌽(∨\⌽' '≠⍵)/⍵}`|
+|`rtrim`|`reverse ltrim reverse x`|`{(⌽∨\⌽' '≠⍵)/⍵}`|
 |`scan`|-|`\`|`scan`|
 |`sum`|`(+) over`|`+/`|
 |`sums`|`(+) scan`|`+\`|
