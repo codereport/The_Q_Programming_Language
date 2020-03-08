@@ -25,6 +25,7 @@
 |`iasc`|-|`⍋`|`grade up`|
 |`idesc`|-|`⍒`|`grade down`|
 |`in`|`any x =\:/: y`|`∊`|`membership`|
+|`inter`|`x where x in y`|`∩`|`intersection`|
 |`last`|`-1 #`|`¯1↑`|
 |`ltrim`|`x where maxs " " <> x`|`{(∨\' '≠⍵)/⍵}`|
 |`max`|`(\|) over`|`⌈/`|
@@ -44,4 +45,5 @@
 |`sums`|`(+) scan`|`+\`|
 |`string`|-|`⍕`|`format`|
 |`trim`|`ltrim rtrim x`|`{⌽(∨\⌽' '≠⍵)/⍵} {(∨\' '≠⍵)/⍵}`|
+|`union`|`x , y where not y in x`|`∪`|`union`|
 |`where`|-|`⍸`|`where`|
