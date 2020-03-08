@@ -13,6 +13,7 @@
 |`avg`|`(sum x) % count x`|`+/÷⍴`|
 |`avgs`|`(sums x) % 1 + til count x`|`{(+\⍵)÷⍳⍴⍵}`|
 |`ceiling`|-|`⌈`|`ceiling`|
+|`count`|-|`⍴`|`shape`|
 |`cross`|`raze x,\:/:y`|`{,⍺∘.,⍵}`|
 |`cut`|-|`{((⍳⍴⍵)∊⍺)⊂⍵}`|
 |`deltas`|`(-) prior`|`{(⊃⍵),-2-/⍵}`|
