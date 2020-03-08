@@ -24,7 +24,7 @@
 |`floor`|-|`⌊`|`floor`|
 |`iasc`|-|`⍋`|`grade up`|
 |`idesc`|-|`⍒`|`grade down`|
-|`in`|TBD|`∊`|`membership`|
+|`in`|`any x =\:/: y`|`∊`|`membership`|
 |`last`|`-1 #`|`¯1↑`|
 |`ltrim`|`x where maxs " " <> x`|`{(∨\' '≠⍵)/⍵}`|
 |`max`|`(\|) over`|`⌈/`|
