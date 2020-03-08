@@ -40,5 +40,6 @@
 |`scan`|-|`\`|`scan`|
 |`sum`|`(+) over`|`+/`|
 |`sums`|`(+) scan`|`+\`|
+|`string`|-|`⍕`|`format`|
 |`trim`|`ltrim rtrim x`|`{⌽(∨\⌽' '≠⍵)/⍵} {(∨\' '≠⍵)/⍵}`|
 |`where`|-|`⍸`|`where`|
