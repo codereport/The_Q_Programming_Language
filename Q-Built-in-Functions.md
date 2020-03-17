@@ -45,6 +45,7 @@
 |`sum`|`(+) over`|`+/`|
 |`sums`|`(+) scan`|`+\`|
 |`string`|-|`⍕`|`format`|
+|`til`|-|`⍳`|`iota`|
 |`trim`|`ltrim rtrim x`|`{⌽(∨\⌽' '≠⍵)/⍵} {(∨\' '≠⍵)/⍵}`|
 |`union`|`x , y where not y in x`|`∪`|`union`|
 |`where`|-|`⍸`|`where`|
